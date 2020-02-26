@@ -1,0 +1,113 @@
+body {
+	background-color: rgb(250, 169, 135);
+}
+
+h1 {
+	text-align: center;
+	color: rgb(27, 50, 132);
+	font-family: 'Roboto Slab';
+	font-size: 2.3em;
+	text-decoration-line: underline;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+table, th, td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: 'Roboto Slab';
+}
+
+table {
+	width: 85%;
+	border-collapse: collapse;
+	margin-left:auto; 
+	margin-right:auto;
+
+}
+
+tbody{
+	border: 1px solid black;
+}
+
+th {
+	height: 50px;
+	background-color: rgb(27, 50, 132);
+	color: white;
+	font-size: 20px;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(255, 217, 201);
+	font-size: 15px;
+}
+
+td, th {
+	padding: 8px;
+	width: 70px;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+form {
+	border: 1px solid black;
+	width: 70%;
+	padding: 10px;
+	margin-left:auto; 
+	margin-right:auto;
+	font-family: 'Roboto Slab';
+}
+input[type=text] {
+	border: 1px solid black;
+	width: 100%;
+	padding: 14px 20px;
+	margin: 10px 0;
+	box-sizing: border-box;
+	background-color: rgb(242, 168, 133);
+}
+
+input[type=text]:focus {
+	border: 2px solid #555;
+	outline: none;
+	background-color: white;
+}
+
+input[type=submit] {
+	border: 1px solid black;
+	font-family: 'Roboto Slab';
+	background-color: white;
+	padding: 6px;
+}
+
+button {
+	border: 1px solid black;
+	font-family: 'Roboto Slab';
+	background-color: white;
+}
+
+#new-book-btn{
+	width: 75px;
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 35px;
+	border-radius: 4px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+#new-book-btn:focus {
+	outline: none;
+}
+
+#new-book-btn:hover {
+	color: white;
+	background-color: rgb(27, 50, 132);
+}
+
+

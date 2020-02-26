@@ -84,6 +84,7 @@ submitBtn.addEventListener('click', (e) => {
 		readValue = document.querySelector('#yes-read').value;
 	}
 
+	newBookForm.reset();
 	newBookForm.style.display = "none";
 	addBookToLibrary(titleValue, authorValue, numPagesValue, readValue);
 })
